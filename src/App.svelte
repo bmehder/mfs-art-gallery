@@ -2,7 +2,7 @@
   import Card from './Card.svelte'
 
   const endpoint =
-    'https://public-api.wordpress.com/rest/v1.1/sites/repo995752852.wordpress.com/posts/?category=art-class'
+    'https://public-api.wordpress.com/rest/v1.1/sites/repo995752852.wordpress.com/posts/?category=graphic-design'
 
   let posts = []
 
@@ -25,6 +25,6 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 4rem;
   }
 </style>

@@ -36,9 +36,8 @@
 
 <style>
   article {
-    flex-basis: 350px;
+    flex: 1;
     min-width: 350px;
-    margin-bottom: 1rem;
     background: #f0f2f5;
     border-radius: 1em;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.24);
